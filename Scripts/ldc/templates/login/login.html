@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+</head>
+<body>
+    <h1>这是登录界面</h1>
+    <u1>
+        {% for i in name %}
+        <li>
+            <a href="aa.com">姓名：{{i.s_name}} 年龄：{{i.s_age}}</a>
+        </li>
+        {% empty %}
+        <li>空！！！！</li>
+        {% endfor %}
+    </u1>
+
+</body>
+</html>
